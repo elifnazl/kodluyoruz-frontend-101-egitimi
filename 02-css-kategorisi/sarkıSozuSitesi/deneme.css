@@ -1,0 +1,39 @@
+
+  
+  html {
+    font-size: calc(var(--font-size) - 1px);
+    line-height: calc(var(--line-height) - 0px);
+  }
+  
+  body {
+    margin: 0px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scrollbar-color: rgb(255, 255, 255) rgb(18, 18, 18);
+  }
+  
+
+  
+  h1 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(18, 18, 18);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(94, 94, 94);
+  }

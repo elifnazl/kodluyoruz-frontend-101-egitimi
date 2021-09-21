@@ -1,0 +1,34 @@
+:root {
+    --color-red: #ec1840;
+    --color-purple: #7a18ec;
+    --color-white: #fff;
+    --color-black-1: #111;
+    --color-black-2: #222;
+    --color-black-3: #444;
+    --speed-normal: 0.5s;
+    --speed-fast: 0.8s;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--color-black-1);
+  }
+  .ss {
+    position: relative;
+    width: 180px;
+    height: 60px;
+    margin: 20px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+    border: 1px solid var(--color-red);}
+    
